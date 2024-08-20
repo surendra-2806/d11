@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSRTC BUS PASS</title>
+</head>
+<body>
+<img src="" alt="">
+
+<center><h1>TELANGANA STATE ROAD TRANSPORT CORPORATION </h1>
+<H2>BUS PASS FORM</H2> </HR></center>
+  <form action="sucess.html">
+    <fieldset>
+      <legend>
+        appliccation details
+      </legend>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" required maxlength="15 characters">&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" required autofocus ><br>
+      <label for="file">file</label>
+      <input type="file" id="file" name="file" multiple required>&ensp;&ensp; &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<br>
+
+      
+      <label for="fname"> father name:</label>
+      <input type="text" id="fname" name="fname" required autofocus><br>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required><br>
+      <label for="gender">gender:</label><br>
+      <label for="male">male:</label>
+      <input type="radio" name="gender" id="male" value="male" required>  
+      <label for="female">female:</label>
+      <input type="radio" name="gender" id="female" value="female"><br>
+      <label for="dob">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="photo">photo</label>
+      <input type="file" id="photo" name="photo"  required><br>
+</fieldset>
+<fieldset>
+  <legend>Address</legend>
+      <label for="dob">Address:</label>
+      <textarea id="address" name="address" required></textarea><br>
+      <label for="dob">City:</label>
+      <input type="text" id="city" name="city" required><br>
+      <label for="District">District:</label>
+<select id="District">
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="warangal">warangal</option>
+  <option value="Khammam">Khammam</option>
+</select>
+      <br>
+      
+      <label for="dob">pincode</label>
+      <input type="text" id="pincode" name="pincode" required><br>
+      
+      <label for="dob">Phone:</label>
+      <input type="tel" id="phone" name="phone" required><br>
+    </fieldset>
+   <fieldset>
+    <legend>pass type details</legend>
+    <label for="city">city:</label>
+    <input type="text" name="city" id="name"required> <br>
+    <label for="ptype">passtype:</label>
+    <select id="ptype" name="ptype" required>
+      <option value="student">Student</option>
+      <option value="employee">Employee</option>
+      <option value="other">Other</option>
+    </select><br>
+
+   </fieldset>
+   <fieldset>
+    <legend>
+      Mode of Payment & Pass Collection
+    </legend>
+   <label for="pmode">payment mode:</label>
+   <select name="pmode" id="pmode"required>
+   <option value="online mode">online mode</option>
+   <option value="upi"> upi</option>
+   <option value="debit card">debit card</option>
+   <option value="credit card">credit card</option></select><br>
+   <label for="pdm">Pass Delivery Mode </label>
+   <select name="pdm" id="pdm" required>
+   <option value="self pickup">self pickup</option>
+   <option value="online delivery">online delivery</option>
+   <option value="post delivery">post delivery</option></select><br>
+   <label for="mpass">modes of pass</label>
+   <select name="mpass" id="mpass" required><br>
+    <option value="paperless mode">paperless mode</option>
+    <option value="paper mode">paperless mode</option>
+   </select>
+   </fieldset>
+    
+
+<a href="sucess.html"><button type="submit">Submit</button></a>
+
+
+
+
+    
+  </form>
+</body>
+</html>
